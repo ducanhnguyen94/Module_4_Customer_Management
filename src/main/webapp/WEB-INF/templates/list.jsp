@@ -36,7 +36,7 @@
         <c:out value="${c.id}"/>
       </td>
       <td>
-        <a href="${pageContext.request.contextPath}/customers/detail?id=${c.id}">${c.name}</a>
+        <a href="${pageContext.request.contextPath}/customers/${c.id}">${c.name}</a>
       </td>
       <td>
         <c:out value="${c.email}"/>
